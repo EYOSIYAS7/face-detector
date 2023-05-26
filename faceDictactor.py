@@ -34,5 +34,6 @@ while True:
         break
 
 webCam.release() 
+cv2.destroyAllWindows()
 
 print("code completed ")
